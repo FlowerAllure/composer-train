@@ -3,7 +3,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Flowerallure\\ComposerTrain\\": "src/"
+            "Flowerallure\\ComposerTrain\\App\\": "src/"
         }
     },
     "authors": [

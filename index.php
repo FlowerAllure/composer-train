@@ -1,8 +1,9 @@
 <?php
 
+require __DIR__ .'/vendor/autoload.php';
+
 use FlowerAllure\ComposerUtils\App\Services\WeatherServer;
 
-require __DIR__ .'/vendor/autoload.php';
 
 $weather = new WeatherServer('353dcf19d90f33f3ccd62e50105410f2');
 
