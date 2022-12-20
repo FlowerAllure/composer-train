@@ -1,0 +1,19 @@
+{
+    "name": "flowerallure/composer-train",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Flowerallure\\ComposerTrain\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "feng.pan",
+            "email": "feng.pan@mail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "flowerallure/composer-utils": "dev-master"
+    }
+}
