@@ -6,6 +6,11 @@
             "Flowerallure\\ComposerTrain\\App\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "FlowerAllure\\ComposerTrain\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "feng.pan",
@@ -13,7 +18,11 @@
         }
     ],
     "require": {
-        "php": ">=8.2",
-        "flowerallure/composer-utils": "dev-master"
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "friendsofphp/php-cs-fixer": "^3",
+        "mockery/mockery": "^1.5"
     }
 }
